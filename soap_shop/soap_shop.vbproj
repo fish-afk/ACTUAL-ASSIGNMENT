@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{4C4F79DF-D46E-45CF-9DAC-73E5572154CB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>ACTUAL_ASSIGNMENT_.My.MyApplication</StartupObject>
-    <RootNamespace>ACTUAL_ASSIGNMENT_</RootNamespace>
-    <AssemblyName>ACTUAL ASSIGNMENT!</AssemblyName>
+    <StartupObject>soap_shop.My.MyApplication</StartupObject>
+    <RootNamespace>soap_shop</RootNamespace>
+    <AssemblyName>soap_shop</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -38,7 +38,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>ACTUAL ASSIGNMENT!.xml</DocumentationFile>
+    <DocumentationFile>soap_shop.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -48,7 +48,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>ACTUAL ASSIGNMENT!.xml</DocumentationFile>
+    <DocumentationFile>soap_shop.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -67,7 +67,7 @@
     <ManifestCertificateThumbprint>3307F76D0B0AB1EB8C49F808203F08DD376F2EF6</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>ACTUAL ASSIGNMENT!_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>soap_shop_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -146,7 +146,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ACTUAL ASSIGNMENT!_TemporaryKey.pfx" />
+    <None Include="soap_shop_TemporaryKey.pfx" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

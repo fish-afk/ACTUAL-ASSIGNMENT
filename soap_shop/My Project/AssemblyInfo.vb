@@ -8,10 +8,10 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("ACTUAL ASSIGNMENT!")>
+<Assembly: AssemblyTitle("soap_shop")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("ACTUAL ASSIGNMENT!")>
+<Assembly: AssemblyProduct("soap_shop")>
 <Assembly: AssemblyCopyright("Copyright ©  2021")>
 <Assembly: AssemblyTrademark("")>
 
